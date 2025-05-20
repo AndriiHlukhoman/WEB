@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Реєстрація | Трекер робочого часу</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="banner">
+        <div class="info">
+            <img src="./images/logo-timetrack.png" class="logo" alt="Логотип">
+            <ul>
+                <li><a href="./register.html">Реєстрація</a></li>
+                <li><a href="./login.html">Вхід</a></li>
+                <li><a href="./profile.html">Профіль</a></li>
+                <li><a href="./index.html">Про додаток</a></li>
+                <li><a href="./tracker.html">Трекер часу</a></li>
+            </ul>
+        </div>
+
+        <div class="content">
+            <h1>Реєстрація</h1>
+            <div class="content-form">
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Персональні дані</legend>
+                        <input type="text" name="username" placeholder="Введіть ваше ім'я" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Контактна інформація</legend>
+                        <input type="email" name="email" placeholder="Введіть email" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Додаткова інформація</legend>
+                        <div>
+                            <input type="radio" name="gender" id="male">
+                            <label for="male">Чоловіча</label>
+                            
+                            <input type="radio" name="gender" id="female">
+                            <label for="female">Жіноча</label>
+                        </div>
+                    </fieldset>
+                    
+                    <fieldset>
+                        <legend>Дата народження</legend>
+                        <input type="date" name="birthdate" required>
+                    </fieldset>
+                    
+                    <input type="submit" value="Зареєструватися">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
